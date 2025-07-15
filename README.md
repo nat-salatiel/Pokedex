@@ -1,12 +1,12 @@
 
 # Pokédex
 
-Este projeto é uma Pokédex interativa desenvolvida com HTML, CSS e JavaScript. Ele consome dados da PokéAPI para exibir informações detalhadas sobre os Pokémon, como nome, número, tipo, imagem e estatísticas.
+Este projeto é uma Pokédex interativa desenvolvida com HTML, CSS e JavaScript. Ele consome dados da PokéAPI para exibir informações sobre os Pokémon, como nome, número e imagem.
 
 ## 🔍 Funcionalidades
 
 - Busca por nome ou número do Pokémon
-- Exibição de imagem, tipo e estatísticas
+- Exibição de imagem
 - Interface responsiva e amigável
 - Integração com a PokéAPI
 
