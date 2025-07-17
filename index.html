@@ -1,42 +1,70 @@
 <!DOCTYPE html>
+<!-- Define que o documento é HTML5 -->
+
 <html lang="en">
+<!-- Início do documento HTML, com idioma definido como inglês -->
+
 <head>
     <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8, que suporta acentuação e símbolos especiais -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Garante que o site seja responsivo, ajustando o layout de acordo com o tamanho da tela do dispositivo -->
 
     <link rel="icon" href="./favicon-16x16.png">
+    <!-- Define o ícone da aba do navegador (favicon) -->
+
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Importa o arquivo CSS externo para aplicar estilos à página -->
 
     <script defer src="./js/script.js"></script>
-    
+    <!-- Importa um arquivo JavaScript, com `defer` para carregar o script após o carregamento do HTML -->
+
     <title>Pokédex</title>
+    <!-- Define o título da aba do navegador -->
 </head>
+
 <body>
+    <!-- Início do corpo da página (conteúdo visível) -->
+
     <main>
+        <!-- Elemento principal da página -->
 
         <img src="#" alt="pokemon" class="pokemon__image">
+        <!-- Imagem do Pokémon, inicialmente com src vazio, provavelmente será preenchido via JavaScript -->
 
         <h1 class="pokemon__data">
+            <!-- Título contendo o número e nome do Pokémon -->
             <span class="pokemon__number"></span> -
+            <!-- Número do Pokémon -->
             <span class="pokemon__name"></span>
+            <!-- Nome do Pokémon -->
         </h1>
 
         <form class="form">
+            <!-- Formulário para pesquisar um Pokémon -->
+
             <input 
-            type="search"
-            class="input__search"
-            placeholder="Name or Number"
-            required
+                type="search"
+                class="input__search"
+                placeholder="Name or Number"
+                required
             />
+            <!-- Campo de busca por nome ou número do Pokémon, obrigatório -->
         </form>
 
         <div class="buttons">
+            <!-- Contêiner dos botões de navegação -->
+
             <button class="button btn-prev">Prev &lt;</button>
+            <!-- Botão para ir ao Pokémon anterior -->
+
             <button class="button btn-next">Next &gt;</button>
+            <!-- Botão para ir ao próximo Pokémon -->
         </div>
         
-        <img src="./pokedex.png" alt="pokedex" class="pokedex">
-
+            <img src="./pokedex.png" alt="pokedex" class="pokedex">
+        <!-- Imagem decorativa da Pokédex como fundo ou estrutura da interface -->
     </main>
 </body>
 </html>
